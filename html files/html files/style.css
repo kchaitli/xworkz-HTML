@@ -1,0 +1,192 @@
+
+/*body{
+    background-color: rgb(195, 215, 223);
+    
+}*/
+body {
+   background-image: url("https://cdn1.vectorstock.com/i/1000x1000/16/10/web-page-background-blue-square-vector-4661610.jpg");
+  /* background-image: url(https://media3.giphy.com/media/CIjXMxobcEnkI/200w.webp?cid=ecf05e479e7yea2gcgkvtx25mqrbltt828wfo2bxb564o6s5&rid=200w.webp);*/
+    /*background-clip: border-box;add vedio in background task*/
+   /* background-image: url(https://media2.giphy.cm/media/PMV7yRpwGO5y9p3DBx/200w.webp?cid=ecf05e47ew1j71cvor547mhzuwtweehx9juvhonoa1i08py9&rid=200w.webp);*/
+   /*background-image: url(https://media4.giphy.com/media/kg19fN5BXbZGIDznzG/200w.webp?cid=ecf05e47kzrhvjj3iafuxgkapb9olnwobac3n03qsv2sjbct&rid=200w.webp);*/
+   height: 2000px;
+   width:1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+   }
+h1{
+    text-decoration-line: underline;
+    color:rgb(128, 203, 206);
+    background-color: rgb(41, 65, 97);
+    font-size: 50px;
+    text-align: left;
+    text-transform:capitalize;
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h1,h2{
+    color: rgb(211, 215, 221);
+}/*grouping*/
+h2{
+    text-align: left;
+}
+h3{
+    text-align: center;
+}
+.ban{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    font-size: 10px;
+    padding: 0px;
+}
+.new{
+    color: rgb(24, 54, 66);
+    font-size: 30px;
+    padding: 10px 20px 10px 20px;
+    border:2px solid rgb(0, 0, 0);
+    margin: 100px;
+}
+.box{
+border:2px solid rgb(0, 0, 0);
+margin: 10px;
+padding: 20px;
+width: 100px;
+height: 100px;
+}
+.box1{
+    
+    border:2px solid rgb(0, 0, 0);
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    
+}
+.box2{
+    border:2px solid rgb(3, 3, 3);
+    margin:10px;
+    width:100px;
+    height:100px;
+    background-color: rgb(20, 163, 220);
+}
+.new:hover{
+    color: white;
+}
+.box2:hover{
+    background-color: darkgrey;
+}
+.box3{
+    border:2px solid black;
+    background-color: skyblue;
+    margin-left: 200px;
+    padding: 50px;
+    bottom:10px;
+    display: inline-block;
+}
+.hyper:link{
+    background-color: rgb(40, 172, 172);
+}
+.insta :visited{
+    background-color: brown;
+}
+.insta:active{
+    background-color: burlywood;
+}
+.insta{
+    text-decoration: none;
+}
+table,tr,th{
+    border: 2px solid black;
+}
+tr:nth-child(even):hover{
+    background-color: rgb(23, 193, 223);
+}
+tr:nth-child(odd){
+    background-color: darkgray;
+}
+tr:nth-child(odd):hover{
+    background-color: rgb(104, 168, 187);
+}
+/*div p{
+    color: lightblue;
+}*/
+/*div>p{
+    color: lightblue;
+}*/
+/*div+p{
+    color: lightblue;
+}*/
+div~p{
+    color: lightskyblue;
+}
+.pos{
+    /*position:static;*/
+    position: relative;/*from div tag position will begin*/
+    border: 2px solid black;
+}
+
+.one{
+   /* position: relative;
+   /* top: 10px;
+    bottom: 100px;
+    left: 100px;
+    right: 0px;*/
+    background-color: rgb(93, 181, 216);
+}
+.two{
+    /*position: absolute;/*takes position starting from the body to make it begin from div tag make position relative in pos class*/
+   /* position: relative;
+    top: 50px;*/
+    background-color: rgb(50, 157, 199);
+}
+.special{
+    position: relative;
+    background-color: rgb(13, 88, 105);
+    top: 20px;
+}
+/*how to find relative path/
+/*search font and text attributes
+  difference between font and text
+  css Selector:
+  
+  class selctor
+  
+  element type selector
+
+  id selector
+
+  pseudo selector
+
+  assignment: selectors, grouping selectot, element type selector, class selector
+
+  We can divide CSS selectors into five categories:
+
+Simple selectors (select elements based on name, id, class)
+Combinator selectors (select elements based on a specific relationship between them)
+Pseudo-class selectors (select elements based on a certain state)
+Pseudo-elements selectors (select and style a part of an element)
+Attribute selectors (select elements based on an attribute or attribute value)
+  
+  background image
+
+  hover, link, visited, active
+
+  css combinators
+  There are four different combinators in CSS:
+
+    descendant selector (space)
+    child selector (>)
+    adjacent sibling selector (+)
+    general sibling selector (~)
+
+  Selector	Example	Example description
+    element element	div p	Selects all <p> elements inside <div> elements
+    element>element	div > p	Selects all <p> elements where the parent is a <div> element
+    element+element	div + p	Selects the first <p> element that are placed immediately after <div> elements
+element1~element2	p ~ ul	Selects every <ul> element that are preceded by a <p> element
+
+*/

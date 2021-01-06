@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="SurveyForm.css">
+    </head>
+    <body>
+        <h1>Survey Form</h1>
+        <p>Let us know how can we improve freeCodeCamp</p>
+        <div>
+        <label> Name: &nbsp  </label>
+        <input required="text" placeholder="Enter your name">
+        </div>
+        <div>
+            <br>
+            
+            <label>Email: &nbsp</label>
+            <input required="Email" placeholder="Enter your Email">
+        </div>
+        <div>
+            <br>
+            <label>Age: &nbsp</label>
+            <input required="Number" placeholder="enter the age ">
+        </div>
+        <div>
+            <br>
+            <label>which option best describes your current role?</label>
+            <select>select role
+                <option value="">--select--</option>
+                <option value="">student</option>
+                <option value="">Employee</option>
+
+            </select>
+        </div>
+        <div class="align">
+            <br>
+            
+            <label>How likely is that you would recommend freeCodeCamp to a friend?</label>
+            <br>
+           <input type="radio" name="option" value="Definitely">Definitely
+            <br>
+            <input type="radio" name="option" value="Maybe">Maybe
+            <br>
+            <input type="radio" name="option" value="Not sure">Not Sure
+            
+        </div>
+        <div>
+            <br>
+            <label>what do you like the most in FCC</label>
+            <select>what do you likel
+                <option value="">Select an otion</option>
+                <option value="">HandsOn practice</option>
+                <option value="">Free resources</option>
+
+            </select>
+        </div>
+        <div>
+            <br>
+            <label>Things that should be improved in the future (check all that apply)</label>
+            <select>improvements
+                <input type="checkbox" value="Front-end projects">Front-end projects
+                <br>
+                <input type="checkbox" value="Back-end Projects">Back-end projects
+                <br>
+                <input type="checkbox" value="Data Visualization"> Data Visualization
+            </select>
+        </div>
+        <br>
+            <button type="submit"> submit</button> 
+    </body>
+</html>
